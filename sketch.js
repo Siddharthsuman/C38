@@ -5,7 +5,7 @@ var database;
 var form,game,player;
 var allPlayers;
 var cars,car1,car2,car3,car4;
-
+var distance=0;
 
 function setup(){
    
@@ -26,7 +26,8 @@ function draw(){
     if(gameState===1)
     {
         clear();
+        game.play();
     }
-    game.play();
+    
 }
 
